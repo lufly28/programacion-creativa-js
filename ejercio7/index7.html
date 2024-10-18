@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="cambiarColor('rojo')">Rojo</button>
+<button onclick="cambiarColor('amarillo')">Amarillo</button>
+<button onclick="cambiarColor('verde')">Verde</button>
+<div id="semaforo"></div>
+
+<style>
+#semaforo {
+  width: 50px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: red;
+}
+</style>
+
+<script>
+function cambiarColor(color) {
+  const semaforo = document.getElementById('semaforo');
+  semaforo.style.backgroundColor = color;
+}
+</script>
+</body>
+</html>

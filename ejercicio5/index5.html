@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="palabra">
+<button onclick="contarVocales()">Contar Vocales</button>
+<p id="resultado"></p>
+
+<script>
+function contarVocales() {
+  const palabra = document.getElementById('palabra').value;
+  const vocales = 'aeiouAEIOU';
+  let contador = 0;
+
+  for (let i = 0; i < palabra.length; i++) {
+    if (vocales.includes(palabra[i])) {
+      contador++;
+    }
+  }
+
+  document.getElementById('resultado').textContent = `La palabra tiene ${contador} vocales.`;
+}
+</script>
+</body>
+</html>

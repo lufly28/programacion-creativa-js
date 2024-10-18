@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="km" placeholder="Kilómetros">
+<button onclick="convertir()">Convertir</button>
+<p id="resultadoConversion"></p>
+
+<script>
+function convertir() {
+  const km = parseFloat(document.getElementById('km').value);
+  const millas = km * 0.621371;
+  document.getElementById('resultadoConversion').textContent = `${km} km son ${millas.toFixed(2)} millas.`;
+}
+</script>
+</body>
+</html>

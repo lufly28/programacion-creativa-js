@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="jugar('piedra')">Piedra</button>
+<button onclick="jugar('papel')">Papel</button>
+<button onclick="jugar('tijera')">Tijera</button>
+<p id="resultadoJuego"></p>
+
+<script>
+function jugar(opcionUsuario) {
+  const opciones = ['piedra', 'papel', 'tijera'];
+  const opcionComputadora = opciones[Math.floor(Math.random() * opciones.length)];
+
+  // Lógica del juego (dejar como ejercicio)
+  // ...
+
+  document.getElementById('resultadoJuego').textContent = `Tú elegiste ${opcionUsuario}, la computadora eligió ${opcionComputadora}. ${resultado}`;
+}
+</script>
+</body>
+</html>

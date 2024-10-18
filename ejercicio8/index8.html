@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="totalCuenta" placeholder="Total de la cuenta">
+<input type="number" id="porcentajePropina" placeholder="Porcentaje de propina">
+<button onclick="calcularPropina()">Calcular</button>
+<p id="resultadoPropina"></p>
+
+<script>
+function calcularPropina() {
+  const totalCuenta = parseFloat(document.getElementById('totalCuenta').value);
+  const porcentajePropina = parseFloat(document.getElementById('porcentajePropina').value) / 100;
+  const propina = totalCuenta * porcentajePropina;
+  document.getElementById('resultadoPropina').textContent = `La propina es: $${propina.toFixed(2)}`;
+}
+</script>
+</body>
+</html>

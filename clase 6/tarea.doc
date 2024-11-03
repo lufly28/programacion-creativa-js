@@ -1,0 +1,12 @@
+Ejercicio clase 6 - Eventos 
+
+Objetivo: Implementar una funcionalidad que permita mover un boton en la página web utilzando las teclas de dirección del teclado.
+
+ Requisitos: 
+ 1- Crear un archivo HTML que contenga un boton. 
+ 2- Aplicar estilos CSS para que el botón tenga una posición absoluta, permitiendo su movimiento en la página.
+ 3- Implementa un archivo JS que:
+
+ ~ Escuche los eventos para detectar cuando se presionen las teclas .
+ ~ Mueva el boton en la dirección correspondiente cada vez que se presiona la tecla. 
+ ~ Define un desplazamiento.

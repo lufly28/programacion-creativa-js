@@ -1,0 +1,39 @@
+#contenedor {
+    position: relative; /* Necesario para posicionar el botón dentro de este contenedor */
+  }
+  
+  #boton {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(138, 138, 194);
+    color: white;
+    padding: 10px;
+  }
+
+  #boton:hover {
+    background-color: rgb(196, 209, 181);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  @keyframes myAnimation {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  #boton {
+    animation: myAnimation 1s infinite;
+  }
+
+  #boton {
+    transition: all 0.3s ease-in-out;
+  }
+  

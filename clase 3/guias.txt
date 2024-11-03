@@ -1,0 +1,43 @@
+                             Guia de ejercicios de práctica
+
+1. Validar Contraseña: Escribir una función que valide si una contraseña es correcta basándose en dos opciones predefinidas.
+Instrucciones:
+a. Escribe una función llamada contraseñaValida que reciba un string como argumento.
+b. Si el string es igual a una de las dos contraseñas definidas , la función debe devolver un mensaje en la consola.
+c. Si el string es diferente de estos valores, debe devolver otro mensaje en la consola.
+
+2. Calculo de Impuestos: Escribir una función llamada calculoImpuestos que recibe dos argumentos numéricos: edad e ingresos. Si la edad es
+igual o mayor a 18 y los ingresos son iguales o mayores a 1000 debe retornar ingresos * 40% . De lo contrario retornar cero
+
+3. Contador con botones: Crear un contador que se incrementa o decrementa con botones.
+Instrucciones:
+a. Crea un h2 que muestre un número (inicialmente 0)
+b. Añade dos botones : “Incrementar” y “Decrementar”.
+c. Al hacer click en los botones , el número debe aumentar o disminuir en 1.
+
+4. FizzBuzz: Escribir una función llamada fizzBuzz que reciba un número y retorne un string de acuerdo a lo siguiente:
+a. “fizz” si el número es múltiplo de 3.
+b. “buzz” si el número es múltiplo de 5.
+c. “fizzbuzz” si el número es múltiplo tanto de 3 como de 5.
+d. Si no cumple ninguna de las condiciones anteriores debe retornar el mismo número.
+
+5. Contar vocales: Escribir un programa que permita al usuario ingresar una palabra y cuente cuántas vocales tiene:
+a. Crea un campo de texto donde el usuario pueda ingresar una palabra.
+b. Al hacer click en un botón , se debe contar cuantas vocales (a,e,i,o,u) contiene la palabra.
+
+6. Manipulación de elementos: Crear un párrafo en el HTML y modificar su contenido usando JS.
+7. Semáforo interactivo: Simular un semáforo donde las lucen cambian de color al hacer click en botones:
+c. Crea tres botones: “Rojo”, “Amarillo” y “Verde”.
+d. Crea un círculo que represente el semáforo.
+e. Al hacer click en cada botón, el círculo debe cambiar de color para simular el estado del semáforo
+
+8. Calculadora de propina: Crear una calculadora donde el usuario ingrese el total de la cuenta y el porcentaje de propina, y el programa
+calcule la propina total.
+9. “Piedra , papel o tijera”: Crear un juego interactivo donde el usuario juegue contra la computadora:
+a. El usuario selecciona “Piedra”, “Papel” o “Tijera” a través de botones.
+b. La computadora selecciona aleatoriamente una opción.
+c. Se muestra quién gana con base a las reglas.
+10. Conversor de unidades (km a millas): Crear un conversor de unidades que convierta km a millas:
+a. El usuario ingresa una cantidad en km.
+b. Al hacer click en un botón, el programa convierte esa cantidad a millas (1 km = 0.621371 millas).
+c. Muestra el resultado en la página.
